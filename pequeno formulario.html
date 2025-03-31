@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequeno formulário</title>
+</head>
+<body>
+    <h1>Formulário de Exemplo</h1>
+    <img src="https://media1.tenor.com/m/tBZfQqRF1VAAAAAC/homework-thinking.gif" width="200">
+</br>
+
+<form name="form1" method="get" action="Apl.Web aula3.html">
+    <!-- Campo de texto para nome -->
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <!-- Campo de texto para e-mail -->
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    Gênero:  </br>
+    <input type="radio" name="gen" id="Masc" value="m" /> Masculino </br>
+    <input type="radio" name="gen" id="Fem" value="f"/> Feminino </br>                                                                                           
+    <input type="radio" name="gen" id="Outro" value="o" /> Outro </br> </br>
+    </select>
+    Selecione a sua fruta favorita: </br>
+         <input list="asfrutas" name="frutas" />
+         <datalist id="asfrutas">
+            <option value="Maçã">
+            <option value="Banana">
+            <option value="Manga">
+            <option value="Abacaxi">
+         </datalist> </br>
+    
+</br>
+
+Envie seus comentários sobre a construção do site! </br>
+<textarea name="comentários" id="comentarios" cols="30" rows="10"></textarea> </textarea>
+</br>
+<input type="submit" value="Enviar">
+</form>
+
+</body>
+</html>
